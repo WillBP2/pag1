@@ -28,7 +28,7 @@ body {
  
 }
 .navegacion {
-    display: flex;
+    display: none;
     flex-direction: column;
     background-color: #fff;
     padding: 10px 0;
