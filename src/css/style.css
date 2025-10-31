@@ -1,7 +1,10 @@
+* {
+ color: #fff;
+ margin: 0;
+ padding: 0;
+}
 body {
  box-sizing: border-box;
- padding: 0;
- margin: 0;
  font-family: sans-serif;
 }
 .header {
@@ -17,15 +20,17 @@ body {
 .logo {
     height: 50px;
     margin-left: 20px;
+    cursor: pointer;
 }
 .nav {
     position: relative;
+    
  
 }
 .navegacion {
-    display: none;
+    display: flex;
     flex-direction: column;
-
+    background-color: #fff;
     padding: 10px 0;
     gap: 10px;
 
@@ -34,15 +39,19 @@ body {
     height: 80vh;
     width: 70vw;
     border-radius: 18px;
+    
 }
 .navegacion-li {
     list-style: none;
-
+    
     padding: 3px 12px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     gap: 10px;
+}
+a {
+    color: #000;
 }
 .hambuerguesa {
     height: 30PX;
@@ -59,23 +68,20 @@ body {
     padding-left: 20px;
 }
 h1 {
-    color: #fff;
     font-size: 26px;
-    margin: 0;
+    letter-spacing: 2px;
+    line-height: 1.3;
 }
 span {
-    color: #fff;
-    font-size: 16px;
     font-weight: 200; 
+     letter-spacing: 2px;
+    line-height: 1.3;
 }
 .article-1 {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 70%;
-}
-a {
-    color: #fff
 }
 .espacio {
     height: 100vh;
