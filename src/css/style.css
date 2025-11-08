@@ -2,7 +2,7 @@
  color: #fff;
  margin: 0;
  padding: 0;
- letter-spacing: 1px;
+ letter-spacing: .5px;
  line-height: 1.6git a;
 }
 body {
@@ -109,7 +109,7 @@ a {
    
 }
 .article1-p {
-    font-size: 14px;
+
     font-weight: 300;
     color: #bfc1c6e0;
 }
@@ -131,17 +131,19 @@ main {
     border-radius: 10px;
     height: 200px;
 }
+.parrafo {
+    font-weight: 300;
+    color: #bfc1c6e0;
+}
 .cont-i-l {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 .titulo {
-    font-size: 18px;
+    font-size: 20px;
 }
-.parrafo {
-    font-size: 14px;
-}
+
 .nose {
       padding: 20px;
     background-color: #111111;
@@ -150,5 +152,6 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    color: #bfc1c6e0;
   
 }
