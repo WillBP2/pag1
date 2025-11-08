@@ -12,10 +12,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(15px);
+
+    background-color: #000012;
+ 
     position: fixed;
     width: 100%;
+    min-height: 50px;
+    border-bottom:4px solid #302e2e;
 }
 .logo {
     height: 50px;
@@ -23,67 +26,59 @@ body {
     cursor: pointer;
 }
 .nav {
-    position: relative;
-    
+    position: relative;  
  
 }
 .navegacion {
     display: none;
     flex-direction: column;
-    background-color: #fff;
-    padding: 10px 0;
+    align-items: center;
+    background-color: #090a24;
     gap: 10px;
 
     position: absolute;
-    right: -10px;
-    height: 80vh;
-    width: 70vw;
-    border-radius: 18px;
+    top: 46px;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    padding: 20px 0;
     
 }
 .navegacion-li {
     list-style: none;
-    
-    padding: 3px 12px;
+    width: 80%;
+    padding: 20px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     gap: 10px;
+   
+
+}
+.navegacion-li:active {
+     background-color: #0101196c;
 }
 a {
-    color: #000;
+    color: #bebfd0;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Courier';
+    font-weight: 600;
 }
 .hambuerguesa {
     height: 30PX;
     cursor: pointer;
     margin-right: 20px;
+    padding: 3px;
+    border-radius: 5px ;
+  
+}
+.color {
+      background-color: #131320;
 }
 .section-1 {
-    background-image: url(../img/utd.jfif);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+     background-color: black;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
+ 
 }
-h1 {
-    font-size: 26px;
-    letter-spacing: 2px;
-    line-height: 1.3;
-}
-span {
-    font-weight: 200; 
-     letter-spacing: 2px;
-    line-height: 1.3;
-}
-.article-1 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 70%;
-}
-.espacio {
-    height: 100vh;
-    background-color: black;
-}
+
