@@ -157,15 +157,7 @@ main {
   
 }
 .img-inicio {
-    height: 300px;
-    border-radius: 10px;
+ border-radius: 10px;
     
 }
-.con-imgi {
-    display: flex;
-    justify-content: center;
-}
-.img-sintesis {
-     
-    border-radius: 10px;
-}
+
