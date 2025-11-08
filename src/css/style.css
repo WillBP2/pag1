@@ -55,15 +55,19 @@ body {
    
 
 }
-.navegacion-li:active {
+.color2 {
+        background-color: #0101196c;
+}
+.navegacion-li:hover {
      background-color: #0101196c;
+     transition: .2s;
 }
 a {
     color: #bebfd0;
     text-decoration: none;
     font-size: 18px;
     font-family: 'Courier';
-    font-weight: 600;
+    font-weight: 900;
 }
 .hambuerguesa {
     height: 30PX;
