@@ -126,10 +126,10 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+   
     gap: 20px;
     border-radius: 10px;
-    height: 200px;
+    min-height: 200px;
 }
 .parrafo {
     font-weight: 300;
@@ -139,6 +139,7 @@ main {
     display: flex;
     align-items: center;
     gap: 20px;
+    
 }
 .titulo {
     font-size: 20px;
