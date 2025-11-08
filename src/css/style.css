@@ -3,7 +3,7 @@
  margin: 0;
  padding: 0;
  letter-spacing: .5px;
- line-height: 1.6git a;
+ line-height: 1.6;
 }
 body {
  box-sizing: border-box;
@@ -97,6 +97,7 @@ a {
        display: flex;
     flex-direction: column;
     padding-top: 100px;
+    gap: 50px;
  
 }
 .article1 {
@@ -160,4 +161,19 @@ main {
  border-radius: 10px;
     
 }
-
+.cartas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.boton {
+    width: 30%;
+    padding: 5px;
+    color:#dddddd;
+    font-size: 17px;
+    background-color: #2564eb;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    
+}
